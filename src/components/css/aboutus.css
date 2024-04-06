@@ -1,0 +1,175 @@
+.intro {
+    position: relative;
+}
+
+section {
+    background: #000;
+}
+
+.intro img {
+    filter: brightness(30%);
+}
+
+.intro #intro-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.second-intro {
+    display: flex;
+    justify-content: space-around;
+    padding: 45px 40px;
+}
+
+.box {
+    width: 70%;
+}
+
+.slider {
+    width: 30%;
+}
+
+.third-intro {
+    position: relative;
+    width: 100%;
+}
+
+.third-intro img {
+    filter: brightness(80%);
+}
+
+.third-intro-text {
+    text-align: center;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+@media screen and (max-width:900px) {
+    .second-intro {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    #para1,
+    #para2 {
+        width: 100%;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .slider {
+        width: 70%;
+    }
+
+    #intro-text {
+        font-size: 58px;
+    }
+
+    .third-intro .third-intro-text #number {
+        font-size: 45px;
+    }
+
+}
+
+@media screen and (max-width:1060px) and (min-width:900px) {}
+
+@media screen and (max-width:901px) and (min-width:700px) {
+
+    #para1,
+    #para2 {
+        width: 100%;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .slider {
+        width: 75%;
+    }
+
+    #intro-text {
+        font-size: 50px;
+    }
+
+    .third-intro .third-intro-text #number {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .third-intro .third-intro-text #text {
+        display: none;
+    }
+
+    #free-btn {
+        padding: 10px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:701px) and (min-width:481px) {
+
+    #para1,
+    #para2 {
+        width: 100%;
+    }
+
+    .slider {
+        width: 85%;
+    }
+
+    #intro-text {
+        font-size: 43px;
+    }
+
+    .third-intro .third-intro-text #number {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .third-intro .third-intro-text #text {
+        display: none;
+    }
+
+    #free-btn {
+        padding: 9px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    #intro-text {
+        font-size: 35px;
+    }
+
+    #para1,
+    #para2 {
+        width: 100%;
+    }
+
+    .third-intro .third-intro-text #number {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .third-intro .third-intro-text #text {
+        display: none;
+    }
+
+    #free-btn {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .slider {
+        width: 100%;
+    }
+}

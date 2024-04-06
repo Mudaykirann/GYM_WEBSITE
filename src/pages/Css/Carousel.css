@@ -1,0 +1,158 @@
+/* *,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: calibri;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+swiper-container {
+    width: 800px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+}
+
+swiper-slide {
+    background-color: rgb(4 47 46);
+    color: #fff;
+    font-size: 25px;
+}
+
+swiper-slide:nth-child(2) {
+    background-color: rgb(15 118 110);
+}
+
+swiper-slide:nth-child(3) {
+    background-color: rgb(45 212 191);
+}
+
+swiper-slide:nth-child(4) {
+    background-color: rgb(153 246 228);
+}
+
+swiper-slide:nth-child(5) {
+    background-color: rgb(34 197 94);
+} */
+
+
+/* 
+.swiper {
+    height: auto;
+}
+
+.swiper .swiper-slide {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.swiper .swiper-slide.bg-color1 {
+    background-color: #d6b404;
+}
+
+.swiper .swiper-slide.bg-color2 {
+    background-color: #7fca83;
+}
+
+.swiper .swiper-slide.bg-color3 {
+    background-color: #ff8888;
+}
+
+.swiper .img-fluid {
+    width: 25%;
+}
+
+@media screen and (min-width: 576px) {
+    .swiper-container {
+        width: 576px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .swiper-container {
+        width: 768px;
+    }
+}
+
+@media (min-width: 992px) {
+    .swiper .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+    }
+} */
+
+main {
+    position: relative;
+}
+
+.swiper-container {
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.image {
+    width: 450px;
+    height: 450px;
+    border-radius: 5px;
+}
+
+.image img {
+    width: 100%;
+    filter: brightness(70%);
+    transition: all .3s;
+}
+
+.swiper-slide .swiper-content {
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    padding: 16px;
+    background: #000000e4;
+    transition: all .3s ease;
+}
+
+.swiper-slide:hover .swiper-content {
+    bottom: 0;
+}
+
+.swiper-slide:hover img {
+    filter: brightness(100%);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #ff1616;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    transition: all .4s ease;
+}
+
+.swiper-button-prev:hover {
+    transform: translateX(-10px);
+}
+
+.swiper-button-next:hover {
+    transform: translateX(10px);
+}
+
+.swiper-button-prev {
+    left: 100px;
+}
+
+.swiper-button-next {
+    right: 100px;
+}

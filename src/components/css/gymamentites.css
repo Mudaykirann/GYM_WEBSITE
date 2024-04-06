@@ -1,0 +1,40 @@
+.gym-page {
+    background: #140c09;
+    padding: 40px 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+}
+
+
+.heading::first-letter {
+    color: #ff1616;
+}
+
+.gym-page .left,
+.gym-page .right {
+    margin: 0px 150px;
+}
+
+.left-img {
+    width: 450px;
+}
+
+.left-img img {
+    width: 100%;
+}
+
+.first li,
+.second li {
+    transition: all .3s ease;
+}
+
+.first li:hover,
+.second li:hover {
+    transform: translateX(5px);
+}
+
+.small {
+    color: #635e5c;
+}

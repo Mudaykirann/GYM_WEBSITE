@@ -1,0 +1,52 @@
+.programpage {
+    background: #37383c;
+    padding: 40px 45px;
+}
+
+.boxes {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    transition: all .4s ease;
+}
+
+.boxes .box {
+    border-left: 2px solid #ff1616;
+    transition: border-color 0.4s ease;
+    /* Only transition border color */
+    cursor: pointer;
+    position: relative;
+    z-index: 1000;
+}
+
+.boxes .box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -2px;
+    /* Adjust left position to align with border */
+    height: 100%;
+    width: 0;
+    background: #ff1616;
+    z-index: -1;
+    /* Move below .box */
+    transition: width 0.4s ease;
+    /* Only transition width */
+}
+
+.boxes .box:hover::before {
+    width: 100%;
+}
+
+.achievments {
+    background: #121121;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 35px 0px;
+}

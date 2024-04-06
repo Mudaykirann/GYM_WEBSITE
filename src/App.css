@@ -1,0 +1,564 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Saira Semi Condensed", sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    cursor: pointer;
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* .line-cursor {
+    width: 5px;
+    border-radius: 50%;
+    position: relative;
+    height: 5px;
+    z-index: 1000;
+    background: #fff;
+    pointer-events: all;
+} */
+/* 
+.dot-cursor {
+    width: 25px;
+    height: 25px;
+    z-index: 1000;
+    border: 1px solid #fff;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    transition: .2s;
+    mix-blend-mode: difference;
+    pointer-events: all;
+} */
+
+@media screen and (max-width:1496px) and (min-width:1060px) {
+
+    html,
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    #landing {
+        height: 100vh;
+    }
+}
+
+/* @media screen and (max-width:1112px) and (min-width:901px) {
+    #landing {
+        width: 100%;
+    }
+
+    #landing nav .nav-list {
+        display: none;
+    }
+} */
+
+
+@media screen and (max-width:900px) {
+    nav .nav-list {
+        display: none;
+    }
+
+    nav {
+        justify-content: space-evenly;
+    }
+
+    .res-nav.open {
+        right: 0;
+    }
+
+    nav .hamburger {
+        display: block;
+    }
+
+    #home-content {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width:1060px) and (min-width:900px) {
+
+    html,
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    #nav-btn {
+        padding: 7px;
+        font-size: 17px;
+    }
+
+    nav .nav-list {
+        display: none;
+    }
+
+    nav .hamburger {
+        display: block;
+    }
+
+    #home-content {
+        justify-content: center;
+        width: 90%;
+    }
+
+    #home-content .home-left,
+    #home-content .home-right {
+        width: 45%;
+    }
+
+    #home-content .home-left .content p {
+        font-size: 43px;
+    }
+
+    #home-content .home-left .content p span {
+        font-size: 110px;
+    }
+
+    #home-content .home-right img {
+        width: 100%;
+    }
+
+    #aboutpage .greet {
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+        width: 100%;
+
+    }
+
+    #aboutpage .greet .left img {
+        width: 100%;
+    }
+
+    #aboutpage .greet .right {
+        width: 100%;
+    }
+
+    #aboutpage .greet .right h1 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+    .programpage .boxes {
+        flex-wrap: wrap;
+    }
+
+    .price-page .monthly .grids,
+    .price-page .yearly .grids {
+        row-gap: 20px;
+    }
+
+    .price-page .Tabs {
+        width: 50%
+    }
+
+    .price-page .Tabs button {
+        width: 50%;
+    }
+
+    .gym-page {
+        flex-wrap: wrap;
+    }
+
+    .testimonial .testimonial-right .slide-container {
+        overflow-y: scroll;
+        height: 450px;
+    }
+}
+
+@media screen and (max-width:901px) and (min-width:700px) {
+
+    html,
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    #nav-btn {
+        padding: 7px;
+        font-size: 14px;
+    }
+
+    #home-content .home-right img {
+        display: none;
+    }
+
+    #aboutpage .greet {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #aboutpage .greet .left img {
+        width: 100%;
+    }
+
+    #aboutpage .greet .right {
+        width: 100%;
+    }
+
+    #aboutpage .greet .right h1 {
+        font-size: 55px;
+        line-height: 55px;
+    }
+
+    .programpage .boxes {
+        flex-wrap: wrap;
+    }
+
+    .price-page .monthly .grids,
+    .price-page .yearly .grids {
+        gap: 40px;
+    }
+
+    .price-page .Tabs {
+        width: 50%
+    }
+
+    .price-page .Tabs button {
+        width: 50%;
+    }
+
+    .gym-page {
+        flex-wrap: wrap;
+    }
+
+    .testimonial .testimonial-right .slide-container {
+        overflow-y: scroll;
+        height: 450px;
+    }
+
+}
+
+@media screen and (max-width:701px) and (min-width:481px) {
+
+    html,
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    #nav-btn {
+        padding: 5px;
+        font-size: 10px;
+        width: 80px;
+    }
+
+    #home-content .home-right img {
+        display: none;
+    }
+
+    #home-content {
+        width: 100%;
+        margin: 30px 70px;
+    }
+
+    #home-content .home-left .content p {
+        font-size: 45px;
+    }
+
+    #home-content .home-left .content p span {
+        font-size: 75px;
+    }
+
+    #home-content .home-left .content2 p {
+        font-size: 17px;
+        width: 100%;
+    }
+
+    .specialties .box .font-bold {
+        font-size: 22px;
+    }
+
+    .specialties .box p {
+        font-size: 17px;
+    }
+
+    .monthly,
+    .yearly {
+        width: 100%;
+    }
+
+    .testimonial {
+        gap: 20px;
+    }
+
+    .testimonial .testimonial-left,
+    .testimonial .testimonial-right {
+        width: 100%;
+    }
+
+    .testimonial .testimonial-left h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .testimonial .testimonial-left p {
+        width: 100%;
+    }
+
+    .testimonial .testimonial-right .slide-container {
+        overflow-y: scroll;
+        height: 450px;
+    }
+
+    #aboutpage .sponsers {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #aboutpage .sponsers .left p {
+        width: 100%;
+        margin: 0px 50px;
+    }
+
+    #aboutpage .sponsers .right {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 30px;
+        gap: 20px;
+    }
+
+    #aboutpage .sponsers .right img {
+        width: 40%;
+    }
+
+    #aboutpage .greet {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #aboutpage .greet .left img {
+        width: 100%;
+    }
+
+    #aboutpage .greet .right {
+        width: 100%;
+    }
+
+    #aboutpage .greet .right h1 {
+        font-size: 45px;
+        line-height: 42px;
+    }
+
+    .programpage .boxes {
+        flex-wrap: wrap;
+    }
+
+    .price-page .monthly,
+    .price-page .yearly {
+        margin: 0px auto;
+    }
+
+    .price-page .monthly .grids,
+    .price-page .yearly .grids {
+        gap: 50px;
+        margin: 0px auto;
+    }
+
+    .gym-page {
+        flex-wrap: wrap;
+    }
+
+    .price-page .Tabs {
+        width: 70%
+    }
+
+    .price-page .Tabs button {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    html,
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    #nav-btn {
+        width: 50px;
+        padding: 4px;
+    }
+
+    nav .logo img {
+        width: 100%;
+    }
+
+    #home-content .home-right img {
+        display: none;
+    }
+
+    #nav-btn {
+        font-size: 12px;
+    }
+
+    #landing {
+        width: 100%;
+
+    }
+
+    #landing #home-content {
+        width: 100%;
+        margin: 30px 70px;
+    }
+
+    #landing #home-content .home-left .content p {
+        font-size: 20px;
+    }
+
+    #landing #home-content .home-left .content p span {
+        font-size: 35px;
+    }
+
+    #landing #home-content .home-left .content2 p {
+        font-size: 13px;
+        width: 60%;
+    }
+
+    .specialties {
+        flex-direction: column;
+    }
+
+    .specialties .box .font-bold {
+        font-size: 15px;
+    }
+
+    .specialties .box p {
+        font-size: 12px;
+    }
+
+
+    #aboutpage .sponsers {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #aboutpage .sponsers .left p {
+        width: 100%;
+        margin: 0px 50px;
+    }
+
+    #aboutpage .sponsers .right {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #aboutpage .sponsers .right img {
+        width: 100%;
+    }
+
+    #aboutpage .greet {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #aboutpage .greet .left img {
+        width: 100%;
+    }
+
+    #aboutpage .greet .right {
+        width: 100%;
+    }
+
+    #aboutpage .greet .right h1 {
+        font-size: 35px;
+        line-height: 38px;
+    }
+
+    .programpage .boxes {
+        flex-direction: column;
+    }
+
+    .price-page .monthly .grids,
+    .price-page .yearly .grids {
+        gap: 50px;
+    }
+
+    .price-page .Tabs {
+        width: 100%
+    }
+
+    .price-page .Tabs button {
+        width: 50%;
+    }
+
+    .bmi-page .left-container form .two input {
+        width: 90%;
+    }
+
+    .gym-page {
+        flex-wrap: wrap;
+    }
+
+    .gym-page .right {
+        width: 100%;
+    }
+
+    .gym-page .heading {
+        font-size: 40px;
+    }
+
+    .gym-page .right .first {
+        width: 100%;
+    }
+
+    .gym-page .right .amenities {
+        flex-direction: column;
+    }
+
+    .testimonial {
+        gap: 20px;
+    }
+
+    .testimonial .testimonial-left,
+    .testimonial .testimonial-right {
+        width: 100%;
+    }
+
+    .testimonial .testimonial-left h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .testimonial .testimonial-left p {
+        width: 100%;
+    }
+
+    .testimonial .testimonial-right .slide-container {
+        overflow-y: scroll;
+        height: 450px;
+    }
+}

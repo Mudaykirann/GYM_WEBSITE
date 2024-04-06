@@ -1,0 +1,66 @@
+.contact-design {
+    background: #141E30;
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);
+    background: linear-gradient(to right, #243B55, #141E30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 15%;
+}
+
+
+.contact-form {
+    background: #232526;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 45px 15%;
+}
+
+.contact-form .title {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.contact-form #sub-btn {
+    background: #ff1616;
+    padding: 10px 45px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 3px;
+}
+
+@media screen and (max-width:900px) {}
+
+@media screen and (max-width:1060px) and (min-width:900px) {}
+
+@media screen and (max-width:901px) and (min-width:700px) {}
+
+@media screen and (max-width:701px) and (min-width:481px) {}
+
+@media screen and (max-width:600px) {
+    .contact-design {
+        flex-direction: column;
+    }
+
+    #con-form .row-1 {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    #con-form .row-1 #name,
+    #con-form .row-1 #email {
+        width: 300px;
+    }
+
+    #con-form .row-2 {
+        display: flex;
+        justify-content: center;
+        width: 300px;
+    }
+}

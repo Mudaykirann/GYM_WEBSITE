@@ -1,0 +1,28 @@
+#aboutpage {
+    width: 100%;
+}
+
+.sponsers {
+    background: #2e2e2f;
+    padding: 40px 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.sponsers .left {
+    line-height: 10px;
+}
+
+.greet {
+    padding: 40px 12%;
+    background: #3a3b3f;
+    display: flex;
+}
+
+
+.greet .right {
+    width: 60%;
+}
+
+/* #37383c */

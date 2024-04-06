@@ -1,0 +1,6 @@
+.bmi-page {
+    background: url('/src/assets/banners//cta-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5% 15%;
+}
