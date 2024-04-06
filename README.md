@@ -21,7 +21,7 @@ This is a responsive  GYM website that showcases various features related to fit
 ->Canva<br/>
 
 <h2>ScreenShots</h2>
-<hr/>
+
 
 
 Currently, two official plugins are available:
