@@ -3,22 +3,22 @@
 This is a responsive  GYM website that showcases various features related to fitness and health. The website is designed to provide a user-friendly experience and includes several functionalities to enhance the user's interaction.
 
 <h2>Features</h2>
-1.Responsive Design
-2.Colorful Theme
-3.Navigation Menu
-4.Service Offerings
-5.Contact Form
+1.Responsive Design <br/>
+2.Colorful Theme <br/>
+3.Navigation Menu <br/>
+4.Service Offerings <br/>
+5.Contact Form <br/>
 
 <h2>Tech Stack Used</h2>
-->HTML
-->CSS
-->JavaScript
-->Tailwind CSS
-->React JS
-->Swiper JS
-->React Router
-->Lucid-Icons
-->Canva
+->HTML <br/>
+->CSS <br/>
+->JavaScript <br/>
+->Tailwind CSS <br/>
+->React JS <br/>
+->Swiper JS <br/>
+->React Router<br/>
+->Lucid-Icons<br/>
+->Canva<br/>
 
 
 
