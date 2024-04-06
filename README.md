@@ -1,5 +1,4 @@
 # Line Beat Fitness Camp Website
-<hr>
 
 
 
